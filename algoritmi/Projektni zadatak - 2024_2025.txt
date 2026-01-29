@@ -1,0 +1,59 @@
+﻿Algoritmi i strukture podataka 2024/2025
+Projektni zadatak
+Osnovne upute
+Za uspješno polaganje predmeta potrebno je isporučiti niže opisani praktični zadatak te pratiti upute iz ovog dokumenta. 
+
+Student mora razvijati praktični zadatak na platformi za verzioniranje koda (GitHub/GitLab). Projekte možete ostaviti privatnima. Dodajte mene na projekt u ulozi developera. 
+
+Na repozitoriju projekta dodati README.md dokument, koji sadrži sve vezano uz zadatak, dobivene rezultate, interpretacija rezultata, odgovore i slično. 
+README.md dokument opis je repozitorija na platformi za verzioniranje koda koji koristi Markdown.  Jednostavan je za korištenje. Za više informacija predlažem da pogledate službenu Markdown dokumentacije za navedene platforme. 
+
+Sav programski kod treba biti funkcionalan te se mora moći pokrenuti za vrijeme testiranja i validaciju podataka u tijeku predaje projekta. 
+
+Za sva testiranja koja radite, ostavite napisana u obliku funkcija ili zakomentirana, ništa nemojte brisati jer ćete testove ponoviti na usmenom ispitu. Programski jezik C++ je obavezan. Razvijate aplikaciju za terminal, pa nije potrebno sučelje za interakciju s aplikacijom.
+Zadatak 
+
+Podaci koje ćete koristiti u vašem projektu: 
+https://www.kaggle.com/datasets/jakewright/9000-tickers-of-stock-market-data-full-history/code
+
+
+Vaš zadatak je izvući podatke iz datoteke (CSV) i napisati klasu koja ce pohraniti te podatke. Ukoliko nemate dovoljno RAMa na računalu, predlažem da prilikom razvoja koristite prvih milion redaka iz CSV datoteke. Za usmeni dio cemo koristiti sve podatke i pokrenuti sve na mom računalu. 
+
+Podatke iz CSV dokumenta pohraniti ćete u strukture koje će vam pomoći odgovoriti na niže naveden upite. 
+
+Opis zadatka 
+
+U svim dijelovima vašega zadatak pokušajte razmišljati o vremenskoj kompleksnosti, prostornu možete ignorirati. Pretpostavite da će svim podacima biti potrebno pristupati, pretraživati ih, dohvaćati najmanje i najveće vrijednosti, obrisati ih i slično. 
+
+
+Vaš zadatak je pomoću klase omogućiti odgovore na navedene upite, vaša klasa služi kao optimizirana baza koja je sprema odgovoriti na upite. Svaki upit može biti jedna metoda u vašoj klasi koja koristi neku od struktura da bi odgovorili na upit. 
+
+Upiti: 
+
+1. Dohvati sve podatke o dionicama za određeni datum.
+2. Izračunaj prosječnu završnu cijenu određene dionice u cijelom skupu podataka
+3. Pronađi najvišu cijenu za određenu dionicu u zadanom vremenskom razdoblju.
+4. Identificiraj sve jedinstvene oznake dionica u skupu podataka
+5. Provjeri postoji li određena oznaka dionice u skupu podataka
+6. Izbroji broj datuma kada je barem jedna dionica imala završnu cijenu iznad određenog praga.
+7. Dohvati završnu cijenu određene dionice za određeni datum
+8. Prikaži sve datume i odgovarajuće završne cijene za određenu dionicu.
+9. Izračunaj ukupni volumen trgovanja za određenu dionicu kroz cijeli skup podataka
+10. Provjeri ima li podataka za određeni datum i određenu dionicu.
+11. Dohvati cijene otvaranja i zatvaranja za određenu dionicu i datum u konstantnom vremenu.
+12. Pronađi iznos dividendi isplacenih za određenu dionicu na određeni datum.
+13. Pronađi 10 dionica s najvećim volumenom trgovanja na određeni datum.
+14. Dohvati 5 dionica s najnižim završnim cijenama kroz cijeli skup podataka.
+15. Održavaj popis 5 dionica s najvećim isplaćenim dividendama tijekom cijelog razdoblja skupa podataka.
+
+Nakon poziva bilo kojih od navedenih upita ispišite vrijeme potrebno za obavljanje operacije u milisekundama. 
+
+
+Uz upite, potrebno je omogućiti i unos jedno ručnog zapisa u vašu bazu kojeg nema u CSV dokumentu. Pritom je potrebno ažurirati podatke u strukturama koje pohranjuju podatke, odnosno upiti moraju biti ispravni nakon ručnog unosa. 
+
+
+Unutar same klase možete imati nekoliko kopija podataka i struktura koje će biti prilagođene za upite na koje ćete odgovarati.  
+Uz navedene točke imate slobodu implementirati stvari po želji ili osobnom ukusu koje će biti bonus na vaš projekt. S podacima i njihovim značenjem se možete upoznati na stranici Kaggle, što može i poslužiti kao inspiracija za proširenje vaše klase. Pritom imajte na umu da je fokus projekta na strukture podataka i algoritme te ono što ih okružuje, ne na stvarnu analizu podataka. Pa ukoliko se odlučite na dodatne implementacije, neka bude povezano s predmetom. 
+
+
+Napomena: Odgovore i rezultate raspisati u README.md dokumentu.
